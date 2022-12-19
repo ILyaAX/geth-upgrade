@@ -1,0 +1,9 @@
+[Unit]
+Description=Geth Update Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/bsc_upgrade.sh
+
+[Install]
+WantedBy=multi-user.target
