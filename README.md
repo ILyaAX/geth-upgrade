@@ -1,1 +1,1 @@
-# geth-upgrade
+# Go Ethereum (geth) update service
