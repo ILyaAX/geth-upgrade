@@ -1,0 +1,8 @@
+[Unit]
+Description=Timer for Geth Update Service
+
+[Timer]
+OnCalendar=daily
+
+[Install]
+WantedBy=timers.target
